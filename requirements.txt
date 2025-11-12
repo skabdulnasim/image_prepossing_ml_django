@@ -1,0 +1,7 @@
+Django>=4.2,<5.0
+djangorestframework>=3.14
+Pillow>=10.0
+gunicorn>=21.2
+psycopg2-binary>=2.9        # only if using PostgreSQL, safe to keep
+python-dotenv>=1.0          # for .env support (optional)
+django-cors-headers>=4.2    # needed if React calls backend from different origin
